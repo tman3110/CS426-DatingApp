@@ -1,10 +1,10 @@
-# CS426-DatingApp
+# Dating App
 
-A full-stack mobile dating application built with modern technologies and best practices for Android development and backend services.
+A mobile dating application built with native Android and Firebase as the backend.
 
 ## Overview
 
-This project is a comprehensive dating application featuring a native Android frontend and a robust Python backend API. The application enables users to create profiles, discover matches, and communicate in real-time.
+This project is a dating application featuring a native Android frontend backed entirely by Firebase services. The application enables users to create profiles, discover matches, and communicate in real-time.
 
 ## Tech Stack
 
@@ -12,12 +12,12 @@ This project is a comprehensive dating application featuring a native Android fr
 - **Language:** Kotlin
 - **Platform:** Android
 - **Architecture:** Modern Android development with Jetpack libraries
-- **Firebase Integration:** Authentication and real-time services
 
-### Backend
-- **Framework:** FastAPI (Python)
-- **Database:** Managed with Alembic migrations
-- **API Structure:** RESTful endpoints organized by version
+### Backend (Firebase)
+- **Authentication:** Firebase Auth (Email/Password + Google Sign-In)
+- **Database:** Firebase Firestore (primary data store)
+- **Realtime:** Firebase Realtime Database (live features)
+- **Storage:** Firebase Storage (media & file uploads)
 
 ## Features
 
@@ -25,10 +25,8 @@ This project is a comprehensive dating application featuring a native Android fr
 - Profile creation and management
 - Matching and discovery system
 - Real-time messaging
-- Firebase integration for backend services
 
 ## Project Structure
 
 - `/app` - Android application source code
-- `/Backend` - Python FastAPI backend
 - `/gradle` - Gradle configuration and dependencies
